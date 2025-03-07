@@ -11,7 +11,7 @@ I am currently a Postdoctoral Research Associate working with Dr. Lauren Brent i
 My research is on primate social cognition and behavior with a particular focus on macaques and baboons. I use long term data and field based experiments to investigate what primates know about one another and how they use that information to make adaptive social choices. 
 </p>
 
-<div style="text-align:center"><img class="image" src="/assets/images/DSC_0401.JPG" /></div><br/>
+<div style="text-align:center"><img class="image" src="assets/images/DSC_0401.JPG" /></div><br/>
 
 
 <!-- Section -->
