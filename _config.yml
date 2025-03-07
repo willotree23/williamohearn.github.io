@@ -1,11 +1,11 @@
 # Site settings
-title: MacaqueNet
+title: William O'Hearn
 subtitle: 
-email: macaquenet@gmail.com
+email: w.ohearn2@exeter.ac.uk
 description: A Global Collaboration Of Macaque Researchers
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://macaquenet.github.io" # the base hostname & protocol for your site
-author: MacaqueNet
+url: "https://willotree23.github.io/williamohearn.github.io/" # the base hostname & protocol for your site
+author: williamohearn
 lang: en_US
 
 # Social settings
