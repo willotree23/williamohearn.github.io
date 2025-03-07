@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "News"
-permalink: /latest_news/
+permalink: /news/
 ---
 ***
 
