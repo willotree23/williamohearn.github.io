@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ***
 
-<div style="text-align:center"><img class="image" src="/assets/images/3 image what is macaquenet collage.png" /></div><br/>
+<div style="text-align:center"><img class="image" src="/assets/images/DSC_0401.JPG" /></div><br/>
 ## About Will
 
 I am a behavioral ecologist broadly interested in the evolution and ecology of social behavior particularly the nuances of partner choice in animals.
