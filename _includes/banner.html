@@ -3,61 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banner Example</title>
+    <title>Dr. William J. O'Hearn</title>
     <style>
-        /* Reset some default styles */
+        /* Reset default styles */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        /* Banner Styling */
+        /* Fullscreen Banner */
         #banner {
             width: 100%;
-            height: 300px; /* Adjust height as needed */
+            height: 100vh; /* Full viewport height */
             background-image: url('assets/images/DSC9377.jpg');
-            background-size: contain; /* Show full image without cropping */
-            background-repeat: no-repeat;
+            background-size: cover; /* Covers the full area */
             background-position: center;
+            background-attachment: fixed; /* Parallax effect */
             display: flex;
             align-items: center;
-            justify-content: flex-start; /* Align text to the left */
+            justify-content: flex-start;
+            padding-left: 8%;
             color: white;
-            padding-left: 40px; /* Add space from the left edge */
-            position: relative;
         }
 
-        /* Dark overlay for better text readability */
-        #banner::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.3); /* Subtle dark overlay */
-        }
-
+        /* Text Styling */
         .content {
-            position: relative;
-            z-index: 1;
-            text-align: left; /* Align text to the left */
+            max-width: 500px; /* Keeps text contained */
+            text-align: left;
         }
 
-        h2, h3 {
-            margin: 5px 0;
+        h1 {
+            font-size: 3rem; /* Large text for the name */
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+        }
+
+        @media (max-width: 768px) {
+            #banner {
+                align-items: flex-end;
+                padding-left: 5%;
+                padding-bottom: 50px;
+            }
+
+            .content {
+                max-width: 90%;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
         }
     </style>
 </head>
 <body>
 
-<!-- Banner -->
+<!-- Fullscreen Banner -->
 <section id="banner">
   <div class="content">
-    <h2>Dr. William J. O'Hearn</h2>
-    <h3>Postdoctoral Research Associate</h3>
-    <h3>Centre for Research in Animal Behaviour</h3>
+    <h1>Dr. William J. O'Hearn</h1>
+    <h2>Postdoctoral Research Associate</h2>
+    <h2>Centre for Research in Animal Behaviour</h2>
   </div>
 </section>
 
