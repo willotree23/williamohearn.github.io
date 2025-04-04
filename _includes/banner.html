@@ -1,13 +1,64 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Example</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Banner Styling */
+        #banner {
+            width: 100%;
+            height: 300px; /* Adjust height as needed */
+            background-image: url('assets/images/DSC9377.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Dark overlay for better text readability */
+        #banner::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+
+        h2, h3 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
 <!-- Banner -->
 <section id="banner">
   <div class="content">
-    <span class="image">
-      <img src="assets/images/DSC9377.jpg" alt="" width="1000" height="auto">
-    </span>
-    
-      <h2>Dr. William J. O'Hearn</h2>
-      <h3>Postdoctoral Research Associate</h3>
-      <h3>Centre for Research in Animal Behaviour</h3>
+    <h2>Dr. William J. O'Hearn</h2>
+    <h3>Postdoctoral Research Associate</h3>
+    <h3>Centre for Research in Animal Behaviour</h3>
   </div>
 </section>
+
+</body>
+</html>
